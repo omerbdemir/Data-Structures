@@ -44,14 +44,11 @@ private:
       cout << "   ";
     }
     cout << p->element << endl;
-
     if(p->left != nullptr){
       c++;
       print(p->left, c);
     }
-    if(p->right != nullptr){
       print(p->right,c);
-    }
   }
   int height(AvlNode *t)const{
 
